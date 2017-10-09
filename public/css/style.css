@@ -1,0 +1,944 @@
+﻿@import "compass/css3";
+/* Media queries */
+@media (min-width: 750px) (max-width: 800px) {
+	.bloc_form2{
+	z-index: 1;
+	/*margin-top:4%;*/
+	margin: auto;
+	padding: 15px;
+}
+.home_description{
+	/*margin-top:2%;*/
+	margin: auto;
+	}
+}
+/* police import */
+@import url('https://fonts.googleapis.com/css?family=Questrial');
+
+
+/* BODY */
+
+
+body{
+	background-image :url("../images/fond-watizit.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	font-family: 'Questrial' ,sans-serif;
+	background-size:cover;
+}
+
+.title-request{
+	color:#FFFFFF;
+	margin-bottom: 3%;
+	margin-left: 3%;
+}
+
+.title-reponse{
+	color: black;
+}
+/* BOOTSTRAP GENERIQUE */
+.btn{
+	border-radius: none;
+	background-color:#ec1378;
+	border:none;
+	border-radius: 0;
+}
+
+.btn:hover{
+	background-color:#c40f63;
+}
+
+.btn-commentaire{
+	color: #FFFFFF;
+	display: inline;
+}
+
+
+/* ----- Page d'accueil hors connexion ----- */
+.row{
+	margin:0;
+}
+.city-inline{
+	padding:0px 0px 15px 0px;
+}
+/* Navigation,Header */
+.navbar-default .navbar-nav>li>a {
+    color: #ec1378;
+}
+
+
+.nav{
+	margin-top: 2%;
+}
+
+.dropdown-menu>li>a{
+	color: #ec1378;
+}
+
+.dropdown-toggle{
+	color: #ec1378;
+}
+
+.logo{
+	width:150px; 
+	margin-right: none;
+}
+.navbar-inverse{
+	background-color:rgba(34,116,163, 0.8);
+	border-radius:0;
+	color: #FFFFFF;
+	border: none;
+}
+
+.navbar-brand{
+	float: none;
+	padding: 0;
+}
+
+.navbar .btn{
+	background-color:#c1c1c1;
+}
+
+.form-inline{
+	margin-top: 9px;
+
+	text-align: right;
+}
+
+.form-group{
+	margin-right: 10px;
+}
+
+.checkbox{
+	margin-right: 10px;
+}
+.button-parameter{
+	margin: auto;
+}
+/* Contenu */
+.bloc_form2{
+	z-index: 1;
+	margin-top:10%;
+	padding: 15px;
+}
+.form-right{
+	background-color:rgba(34,116,163,0.5);
+	padding: 15px;
+}
+.home_description{
+	margin-top:15%;
+	}
+#text-description{
+	background-color:rgba(34,116,163,0.5);
+	padding: 15px;
+}
+#title-description{
+	text-align: center;
+}
+
+<<<<<<< HEAD
+=======
+.input-titre{
+	margin-bottom: 2%;
+}
+
+.media-heading{
+	color:#ec1378;
+	font-weight: bold;
+}
+
+small{
+	margin-left: 2%;
+}
+
+i{
+	color: #74ffff;
+}
+
+.titre-post{
+	font-size:50px;
+	color: #FFFFFF;
+}
+
+.post-contenu{
+	
+	word-wrap: break-word;
+	text-align:justify;  
+	margin-top: 2%;
+	color: #FFFFFF;
+}
+>>>>>>> 69b04be411fa9506880e43011dadefb115dfa514
+/* Footer */
+footer{
+	position:absolute;
+	bottom:0;
+	width:100%;
+	padding-top:0px;
+	height:50px;
+}
+.footer-fluid{
+	background-color:rgba(34,116,163, 0.5);
+	color:#FFFFFF;
+}
+
+.footer-content ul{
+	text-align: center;
+	line-height: 45px;
+}
+
+
+.footer-content li{
+	list-style: none;
+	display: inline;
+	margin-right: 30px;
+}
+
+.footer-content a{
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+/* ----- Page d'accueil connecté----- */
+
+/* Header, menu */
+
+.menu-index ul{
+	float: right;
+	
+}
+
+.recherche-header{
+	margin-right:5%; 
+}
+/* Menu gauche*/
+.menu-nav{
+	width: 100%;
+	padding:0;
+}
+
+.trait{
+   color: #ec1378;
+}
+.menu-nav h2{
+	
+}
+.trait{
+	border-top: 1px solid #ec1378;
+}
+.navbar-default {
+	border-color:#ec1378;  
+}
+.navigation{
+	padding-left: 0;
+}
+
+.navigation a{
+	font-size: 18px;
+}
+.navigation li:hover{
+	background-color: #212a32;
+	transition: background 1s;
+}
+
+.glyphicon{
+	color: #ec1378;
+	margin:5px 25px 25px 5px;
+
+}
+
+
+.menu-lateral-left{
+	background-color: #323F4A;
+	color: #FFFFFF;
+	padding: 20px;
+}
+
+.menu-perso-left{
+	color: #323F4A;
+}
+
+.creation-groupe-button li{
+	margin-left: 0px;
+}
+
+.menu-lateral-left a{
+	text-decoration: none;
+	color: #74ffff;
+
+}
+.photo-profil{
+	width: 70%;
+	border: 2px solid #ec1378;
+
+}
+.lien_photo{
+	margin-left: 14%;
+}
+
+
+.menu-lateral-left h2,h3{
+	text-align: left;
+}
+.menu-lateral-left ul{
+	margin-top:15px;
+	margin: auto;
+}
+.menu-lateral-left li{
+	list-style:none;
+	}
+.button-create-group{
+	background-color:#81b3d0;
+	margin-left: 27%; 
+	margin-bottom: 2%;
+}
+
+.contact-favoris{
+	padding:0;
+}
+
+.contact-favoris a{
+	color: black;
+}
+
+
+/* Menu droit*/
+.menu-lateral-right{
+	background-color: #323F4A;
+	color: #FFFFFF;
+	padding-bottom: 20px;
+}
+.panel-body{
+	background-color: #FFFFFF;
+	margin-top:20px;
+	color: #000000;
+}
+.bouton-chat{
+	margin-bottom: 20px;
+}
+/* Contenu */
+
+.post{
+	background-color:rgba(50,63,74,0.75);
+}
+
+.answer-bloc{
+	 background-color:rgba(196,197,197,0.56);
+	 padding: 15px;
+
+}
+
+.request-write{
+	 background-color:rgba(50,63,74,0.75);
+	 padding: 15px;
+
+}
+
+.social-button{
+	float: right;
+}
+
+.form-request{
+	margin-left:5%;
+}
+
+.ameliorer{
+	width:95%;
+	height:120px; 
+}
+
+.request-button{
+	text-align: right;
+}
+
+.social-object1{
+	margin-top:20px;
+	background-color:rgba(255,255,255,0.70);
+	padding-bottom: 10px;
+
+}
+
+
+.media{
+	padding: 15px;
+}
+.request-button{
+	text-align: right;
+}
+
+/* ---- Page GROUPE ---- */
+
+.jumbotron-groupe{
+	padding: 15px;
+}
+
+/* ---- Page Création de groupe ---- */
+
+.form-group-create{
+	background-color: #ededed;
+	padding: 15px;
+}
+
+/* ----Page paramètres---- */
+
+.btn-modifier{
+	padding-top: 15px;
+	padding-bottom: 15px;
+	float: right;
+}
+
+.form-modif{
+	padding: 15px;
+	text-align: center;
+}	
+
+textarea{
+	resize: none;
+}
+
+.form-para{
+	background-color: #ededed;
+}
+
+.titre-para{
+	text-align: center;
+}
+
+.modif-photo-profil{
+	text-align: center;
+	padding: 15px;
+}	
+
+.btn-photo-profil{
+	text-align: center;
+	padding: 15px;
+}
+
+/* ----Page de messagerie----*/
+
+.list-group{
+	width: 100%;
+}
+.media{
+	font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+.zone.msg{
+	padding: 15px;
+}
+
+.btn-msg{
+	text-align: right;
+	padding-top: 15px;
+	background-color: rgba(0, 0, 0, 0.4);
+}
+
+.publication{
+	padding: 15px;
+
+}
+
+
+.bloc-msg{
+	background-color: #ededed;
+}
+
+.btn-search-msg{
+	padding-top: 15px;
+}
+
+.search-msg{
+	width: 40%;
+	padding-top: 15px;
+}
+
+/* ----Page historique perso---- */
+
+.search-story{
+	float: right;
+	padding: 15px;
+}
+
+.btn-search-story{
+	padding-top: 15px;
+}
+
+.btn-delete-story{
+	padding-bottom: 15px;
+	float: right;
+}
+
+.bloc-histo-perso{
+	background-color: #ededed;
+}
+
+/* ----Page amis---- */
+
+.btn-search-friend{
+	
+	padding-top: 15px;
+}
+
+.search-friend{
+	width: 40%;
+}
+
+.bloc-friend{
+	background-color: #ededed;
+}
+/*----faq----*/
+.menu-central{
+	text-align: inherit;
+	background: ;
+}
+/*----apropos----*/
+
+
+/*----apropos----*/
+.menu-row-central{
+	background: ;
+	text-align: 0;
+}
+	.span1{
+		text-align: center;
+	}
+	.span2{
+		text-align: center;
+	}
+	.span3{
+		text-align: left;
+		
+	}
+.menu-central{
+	text-align: inherit;
+	background:   ;
+	
+}
+
+
+/* ----Accueil amdin---- */
+	.rchrch
+{
+
+text-align: left;}
+
+	#titre
+{
+
+	text-decoration: none;
+text-align: center;
+background-color:grey; 
+color: white;
+}
+	.btn-reg
+{float: center;}
+
+
+	#septembre
+
+
+{
+background-color : grey;
+opacity: 0.6;
+color: white;
+text-align: center;
+
+}
+
+	.ohistorique
+{background-color:white;
+	border-radius: 10px;
+	border-left: 2px solid black;
+}
+
+/* ----Page profil---- */
+
+.bouton-repondre a
+{color: white;
+	padding: 5px;
+
+}
+
+ .bouton-repondre
+ {padding-bottom: 10px;}
+
+
+.nom_p
+{
+padding-top: 45px;
+padding-left: 10px;}
+
+
+{margin-left: 20px; }
+
+.profila
+{border-right: 1px solid grey;}
+
+
+
+.bouton-repondre a
+{color: white;
+
+	
+
+}
+
+ .haut-description
+{background-color:#FFFFFF;
+margin-right: 20%;
+margin-left: 20%;
+border-radius: 15px;
+padding: 10px;
+}
+
+
+.description {
+
+	
+	
+	padding: 10px;
+	
+	
+}
+
+
+.dialogue
+{
+padding-top: 10px;
+margin-top: 20px;
+margin-bottom: 20px;
+ border-radius: 5px;
+}
+
+#btn-pbl
+
+{
+width: 100px;
+}
+
+
+.publication
+{
+margin-top: 30px;
+}
+
+
+.poste{
+padding: 15px;
+ }
+
+#btn-publ
+
+{margin-left: 5px;}
+
+#btn-joindre
+
+{margin-left: 5px;}
+
+#btn-annuler
+
+{margin-left: 5px;}
+ 
+.navbar-02
+{
+	background-color:white;
+	opacity: 0.8;
+}
+
+
+.poutine
+{margin-left: 10px;
+padding: 5px;}
+
+
+/* ----resultat html5---- */
+#titre
+{
+
+	text-decoration: none;
+text-align: center;
+background-color:0; 
+color: black;
+}
+
+.month{
+
+background-color : grey;
+opacity: 0.6;
+color: white;
+text-align: center;
+
+}
+
+.historique
+{background-color:white;
+	border-radius: 10px;
+	border-left: 2px solid black;
+}
+
+
+/* ----Mon contenu---- */
+
+.img-rounded{
+	margin: 15px;
+}
+
+.contenu-perso{
+	text-align: center;
+	background-color: #ededed;
+}
+
+.titre-contenu{
+	text-align: center;
+	background-color: #c1c1c1;
+	padding: 15px;
+}
+
+.azerty{
+	color: white;
+}
+
+.error
+{
+color: red;
+margin: 2px;
+}
+
+
+
+.navbar 
+{
+
+	background-color: #323F4A; 
+
+}
+
+
+
+
+/*FAQ****************************************************/
+#faq{
+	color: white;
+}
+
+.hr1{
+width:150px;
+}
+
+.hr2{
+	width:400px;
+}
+a{
+	color: white;
+}
+.h2pink{
+
+	color: pink;
+}
+
+/*Conditions et Apropos****************************************************************/
+
+.span3{
+	color: white;
+}
+.span2{
+	color: white;
+}
+.span1{
+	color: white;
+}
+
+
+/*INDEX PAGES***************************************************************************/
+/*INDEX HEADER **********************************************************************/
+
+
+/***********************
+ * Essential Structure *
+ ***********************/
+.flexsearch--wrapper {
+	height: auto;
+	width: auto;
+	max-width: 100%;
+	overflow: hidden;
+	background: transparent;
+	margin: 0;
+	position: static;
+}
+	
+.flexsearch--form {
+	overflow: hidden;
+	position: relative;
+	width:600px; 
+}
+	
+.flexsearch--input-wrapper {
+	padding: 0 66px 0 0; /* Right padding for submit button width */
+	overflow: hidden;
+}
+
+.flexsearch--input {
+  width: 60%;
+}
+
+/***********************
+ * Configurable Styles *
+ ***********************/
+.flexsearch {
+  padding: 0 25px 0 200px; /* Padding for other horizontal elements */
+}
+
+.flexsearch--input {
+  -webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+ 	height: 60px;
+  padding: 0 46px 0 10px;
+	border-color: #888;
+  border-radius: 35px; /* (height/2) + border-width */
+  border-style: solid;
+	border-width: 5px;
+  margin-top: 15px;
+  color: #333;
+  font-family: 'Helvetica', sans-serif;
+	font-size: 26px;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+}
+	
+.flexsearch--submit {
+  position: absolute;
+	right: 0;
+	top: 0;
+	display: block;
+	width: 60px;
+	height: 60px;
+  padding: 0;
+  border: none;
+	margin-top: 20px; /* margin-top + border-width */
+  margin-right: 5px; /* border-width */
+	background: transparent;
+  color: #888;
+  font-family: 'Helvetica', sans-serif;
+  font-size: 40px;
+  line-height: 60px;
+}
+
+.flexsearch--input:focus {
+  outline: none;
+  border-color: #333;
+}
+
+.flexsearch--input:focus.flexsearch--submit {
+ 	color: #333; 
+}
+
+.flexsearch--submit:hover {
+  color: #333;
+  cursor: pointer;
+}
+
+::-webkit-input-placeholder {
+	color: #888;  
+}
+
+input:-moz-placeholder {
+  color: #888
+}
+.navbar-ju{
+	position:fixed;
+	color: white;
+	font-size: 50px;
+	font-family: 'Caveat Brush', cursive;
+	background-image: url('../images/chouettes.png');
+}
+.navbar-haut
+{	
+	
+	background-color:rgba(34,116,163, 0.5);
+	color:#FFFFFF;
+	border: none;
+}
+#body{
+
+	background-size: 100% 100%;
+	/*background-color: #18bb9c;*/
+	/*background-image: url("/images/news4.png");*/
+	background-image: url("/images/final1.png");
+
+}
+
+.logoindex
+{
+	width: 500px;
+	height: 400px;
+	/*background-image: url('../images/chouettes.png');*/
+	background-image: url('../images/logowatizit.png');
+	background-repeat: no-repeat;
+	background-position: left;
+	background-size: 450px;
+
+
+}
+#police{
+	margin-top: 50px;
+	/*font-family: 'Caveat Brush', cursive;*/
+	font-family: 'Pacifico', cursive;
+	font-size: 50px;
+	text-align: center;
+	color: pink;
+}
+
+#text1{
+	margin-top: 250px;
+	/*font-family: 'Caveat Brush', cursive;*/
+	font-family: 'Archivo Black', sans-serif;
+	font-size: 80px;
+	text-align: center;
+}
+.zorogauche{
+	font-size: 20px;
+}
+.zorodroite{
+	font-size: 20px;
+}
+/********************************************/
+/*************** PAGE LOGIN *****************/
+/********************************************/
+#login_form, .navbar-style{
+	background-color: rgba(0, 0, 0, 0.4);
+	color: white;
+}
+
+#panel-heading {
+	font-size: 40px;
+	text-align: center;
+}
+
+.btn-form-login{
+	background-color: white;
+	color: black;
+
+}
+
+/********************************************/
+/************** PAGE MESSAGERIE *************/
+/********************************************/
+.background-messagerie{
+	background-color: rgba(0, 0, 0, 0.4);
+	color: white;
+}
+
+.btn-msg-create{
+	background-color: #323F4A;
+	color: #74ffff;
+
+}
+
+.liste-chat{
+	background-color: rgba(223, 223, 223, 0.4);
+}
+a.list-group-item.liste-chat{
+
+	color: white;
+}
+
